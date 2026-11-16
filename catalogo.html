@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameZone | Catálogo de jogos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+
+    <a href="home.html" class="logo">GameZone</a>
+
+    <nav>
+        <a href="home.html">Início</a>
+        <a href="catalogo.html">Catálogo</a>
+        <a href="categorias.html">Categorias</a>
+        <a href="lancamentos.html">Lançamentos</a>
+        <a href="noticias.html">Notícias</a>
+    </nav>
+
+    <div class="user-menu">
+        <a href="favoritos.html">Favoritos</a>
+        <a href="perfil.html">Meu perfil</a>
+    </div>
+
+</header>
+
+
+<main class="catalogo-container">
+
+    <section class="catalogo-intro">
+
+        <h1>Catálogo de Jogos</h1>
+
+        <p>
+            Explore nosso universo gamer e encontre
+            seu próximo jogo favorito.
+        </p>
+
+    </section>
+
+    <section class="catalogo-busca">
+
+        <input
+            type="search"
+            id="pesquisa-jogo"
+            placeholder="Pesquisar jogos..."
+        >
+
+        <button type="button">Pesquisar</button>
+
+    </section>
+
+    <section class="catalogo-filtros">
+
+        <label for="filtro-genero">Gênero:</label>
+
+        <select id="filtro-genero">
+            <option value="">Todos os gêneros</option>
+            <option value="acao">Ação</option>
+            <option value="aventura">Aventura</option>
+            <option value="terror">Terror</option>
+            <option value="rpg">RPG</option>
+            <option value="esportes">Esportes</option>
+            <option value="estrategia">Estratégia</option>
+        </select>
+
+
+        <label for="filtro-plataforma">Plataforma:</label>
+
+        <select id="filtro-plataforma">
+            <option value="">Todas as plataformas</option>
+            <option value="pc">PC</option>
+            <option value="playstation">PlayStation</option>
+            <option value="xbox">Xbox</option>
+            <option value="nintendo">Nintendo</option>
+        </select>
+
+    </section>
+
+    <section class="catalogo-listagem">
+
+        <h2>Todos os jogos</h2>
+
+        <div class="grade-jogos">
+
+            <article class="jogo-card">
+                <div class="jogo-imagem">Imagem do jogo</div>
+                <h3>Jogo 1</h3>
+                <p>Ação • Aventura</p>
+                <a href="jogo.html">Ver detalhes</a>
+            </article>
+
+
+            <article class="jogo-card">
+                <div class="jogo-imagem">Imagem do jogo</div>
+                <h3>Jogo 2</h3>
+                <p>RPG • Fantasia</p>
+                <a href="jogo.html">Ver detalhes</a>
+            </article>
+
+
+            <article class="jogo-card">
+                <div class="jogo-imagem">Imagem do jogo</div>
+                <h3>Jogo 3</h3>
+                <p>Terror • Suspense</p>
+                <a href="jogo.html">Ver detalhes</a>
+            </article>
+
+
+            <article class="jogo-card">
+                <div class="jogo-imagem">Imagem do jogo</div>
+                <h3>Jogo 4</h3>
+                <p>Esportes • Competitivo</p>
+                <a href="jogo.html">Ver detalhes</a>
+            </article>
+
+
+            <article class="jogo-card">
+                <div class="jogo-imagem">Imagem do jogo</div>
+                <h3>Jogo 5</h3>
+                <p>Aventura • Exploração</p>
+                <a href="jogo.html">Ver detalhes</a>
+            </article>
+
+
+            <article class="jogo-card">
+                <div class="jogo-imagem">Imagem do jogo</div>
+                <h3>Jogo 6</h3>
+                <p>Estratégia • RPG</p>
+                <a href="jogo.html">Ver detalhes</a>
+            </article>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer class="site-footer">
+
+    <p>GameZone © 2026 - Todos os direitos reservados.</p>
+
+</footer>
+
+</body>
+</html>

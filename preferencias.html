@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameZone | Preferências</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="preferencias-container">
+
+    <h1>GameZone</h1>
+
+    <h2>Vamos conhecer você!</h2>
+
+    <p>Responda algumas perguntas para personalizarmos suas recomendações.</p>
+
+    <form>
+
+        <fieldset>
+            <legend>1. Quais gêneros você prefere?</legend>
+
+            <label>
+                <input type="checkbox" name="genero" value="acao">
+                Ação
+            </label>
+
+            <label>
+                <input type="checkbox" name="genero" value="terror">
+                Terror
+            </label>
+
+            <label>
+                <input type="checkbox" name="genero" value="rpg">
+                RPG
+            </label>
+
+            <label>
+                <input type="checkbox" name="genero" value="aventura">
+                Aventura
+            </label>
+
+            <label>
+                <input type="checkbox" name="genero" value="esportes">
+                Esportes
+            </label>
+
+            <label>
+                <input type="checkbox" name="genero" value="estrategia">
+                Estratégia
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>2. Em quais plataformas você joga?</legend>
+
+            <label><input type="checkbox" name="plataforma" value="pc"> PC</label>
+            <label><input type="checkbox" name="plataforma" value="playstation"> PlayStation</label>
+            <label><input type="checkbox" name="plataforma" value="xbox"> Xbox</label>
+            <label><input type="checkbox" name="plataforma" value="nintendo"> Nintendo</label>
+            <label><input type="checkbox" name="plataforma" value="mobile"> Mobile</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>3. Como você prefere jogar?</legend>
+
+            <label><input type="radio" name="modo" value="solo" required> Sozinho</label>
+            <label><input type="radio" name="modo" value="multiplayer"> Multiplayer</label>
+            <label><input type="radio" name="modo" value="ambos"> Ambos</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>4. O que você mais valoriza em um jogo?</legend>
+
+            <label><input type="radio" name="prioridade" value="historia" required> História</label>
+            <label><input type="radio" name="prioridade" value="graficos"> Gráficos</label>
+            <label><input type="radio" name="prioridade" value="competitividade"> Competitividade</label>
+            <label><input type="radio" name="prioridade" value="exploracao"> Exploração</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>5. Qual sua preferência de preço?</legend>
+
+            <label><input type="radio" name="preco" value="gratuitos" required> Jogos gratuitos</label>
+            <label><input type="radio" name="preco" value="baratos"> Jogos baratos</label>
+            <label><input type="radio" name="preco" value="qualquer" > Sem preferência</label>
+        </fieldset>
+
+        <button type="submit">Salvar preferências</button>
+
+    </form>
+
+</main>
+</body>
+</html>
